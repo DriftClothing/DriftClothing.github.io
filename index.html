@@ -83,8 +83,10 @@ function mostrarFormularioCompra() {
     <div id="formulario-compra" style="display: none;">
         <h3>Completa tu Compra</h3>
         <form>
-            <label for="stock">Stock Disponible:</label>
-            <p>10 unidades</p>
+            <label for="stock">Stock a consultar:</label>
+            <p>Solo 1 unidad en todos nuestros productos</p>
+
+            <p>Depósito en cuenta bancaria: Número de cuenta 1703897</p>
 
             <label for="tarjeta">Número de Tarjeta:</label>
             <input type="text" id="tarjeta" name="tarjeta" required maxlength="16" placeholder="1234 5678 9012 3456">
@@ -95,41 +97,12 @@ function mostrarFormularioCompra() {
             <label for="cvv">CVV:</label>
             <input type="text" id="cvv" name="cvv" required maxlength="3" placeholder="123">
 
-            <p>Depósito en cuenta bancaria: Número de cuenta 1703897</p>
-
-            <button type="submit">Confirmar Compra</button>
+        <button type="submit">Confirmar Compra</button>
         </form>
     </div>
 </section>
 
-</html> <!-- Sección Comprar -->
-<section <!-- Sección Comprar -->
-<section id="comprar">
-    <h2>Explora Nuestra Tienda</h2>
-    <p>Selecciona entre nuestras categorías y descubrí nuestras últimas publicaciones.</p>
-    <button onclick="mostrarFormularioCompra()">Comprar Ahora</button>
-    
-    <!-- Formulario de Compra -->
-    <div id="formulario-compra" style="display: none;">
-        <h3>Completa tu Compra</h3>
-        <form>
-            <label for="stock">Stock Disponible:</label>
-            <p>1 unidad</p>
 
-            <label for="id-prex">ID de Cuenta Prex:</label>
-            <p>PREX17038979</p>
-
-            <label for="nombre-prenda">Nombre de la Prenda:</label>
-            <input type="text" id="nombre-prenda" name="nombre-prenda" required placeholder="Ej. Camiseta Drift Classic">
-
-            <label for="nombre">Tu Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required placeholder="Ej. Juan Pérez">
-            
-            <label for="cedula">Cédula:</label>
-            <input type="text" id="cedula" name="cedula" required placeholder="Ej. 4.123.456-7">
-            
-            <label for="direccion">Dirección de Casa:</label>
-            <input type="text" id="direccion" name="direccion" required placeholder="Ej. Calle 123, Ciud
 
         </form> <script>
 function mostrarFormularioCompra() {
