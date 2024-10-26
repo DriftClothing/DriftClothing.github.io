@@ -131,6 +131,12 @@ function mostrarFormularioCompra() {
             <label for="direccion">Dirección de Casa:</label>
             <input type="text" id="direccion" name="direccion" required placeholder="Ej. Calle 123, Ciud
 
-        </form>
+        </form> <script>
+function mostrarFormularioCompra() {
+    var formulario = document.getElementById('formulario-compra');
+    formulario.style.display = formulario.style.display === 'none' ? 'block' : 'none';
+}
+</script>
+
     </div>
 </section> 
